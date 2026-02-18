@@ -1,0 +1,51 @@
+{
+  "name": "traveltemp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@hookform/resolvers": "^5.2.2",
+    "@mui/icons-material": "^7.3.6",
+    "@mui/material": "^7.3.6",
+    "@mui/material-nextjs": "^7.3.7",
+    "@mui/x-date-pickers": "^8.23.0",
+    "@neondatabase/serverless": "^1.0.2",
+    "@tanstack/react-query": "^5.90.16",
+    "axios": "^1.13.2",
+    "better-auth": "^1.4.10",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "framer-motion": "^12.25.0",
+    "lucide-react": "^0.562.0",
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-hook-form": "^7.70.0",
+    "react-quill-new": "^3.7.0",
+    "sonner": "^2.0.7",
+    "swiper": "^12.0.3",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.8",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}
