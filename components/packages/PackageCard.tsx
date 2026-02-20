@@ -33,7 +33,7 @@ export default function PackageCard({ pkg, showPrice = true }: PackageCardProps)
                     height="280"
                     image={pkg.thumbnailUrl || '/placeholder-tour.jpg'}
                     alt={pkg.title}
-                    sx={{ objectFit: 'cover' }}
+                    sx={{ objectFit: 'cover', height: "280px" }}
                 />
                 {showPrice && (
                     <Box

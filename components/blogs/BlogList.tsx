@@ -15,8 +15,9 @@ export default function BlogList({ posts }: { posts: any[] }) {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: index * 0.1, duration: 0.5 }}
+                        style={{ height: '100%', display: 'flex' }}
                     >
-                        <Link href={`/blogs/${post.slug}`} style={{ textDecoration: 'none' }}>
+                        <Link href={`/blogs/${post.slug}`} style={{ textDecoration: 'none', width: '100%' }}>
                             <Card
                                 elevation={0}
                                 sx={{

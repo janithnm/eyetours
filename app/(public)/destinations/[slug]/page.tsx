@@ -36,7 +36,7 @@ export default async function DestinationDetailPage({ params }: { params: Promis
                 <Grid container spacing={6}>
                     <Grid size={{ xs: 12, md: 8 }}>
                         {/* Description */}
-                        <Paper sx={{ p: 4, borderRadius: 4, mb: 6 }} elevation={0} id="description">
+                        <Paper sx={{ p: 4, borderRadius: 4, mb: 6, overflow: 'hidden' }} elevation={0} id="description">
                             <Typography variant="h5" fontWeight="bold" gutterBottom sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                                 About {dest.name}
                             </Typography>
@@ -47,6 +47,9 @@ export default async function DestinationDetailPage({ params }: { params: Promis
                                     typography: 'body1',
                                     color: 'text.secondary',
                                     lineHeight: 1.8,
+                                    wordBreak: 'break-word',
+                                    overflowWrap: 'break-word',
+                                    overflow: 'hidden',
                                     '& p': { mb: 2 },
                                     '& h2': { fontSize: '1.5rem', fontWeight: 'bold', mt: 3, mb: 2, color: 'text.primary' },
                                     '& h3': { fontSize: '1.25rem', fontWeight: 'bold', mt: 2, mb: 1, color: 'text.primary' },
